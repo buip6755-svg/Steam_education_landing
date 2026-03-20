@@ -1,0 +1,59 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  background: linear-gradient(to right,#eef2ff,#dff6ff);
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.badge {
+  background: #e0ecff;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.btn-outline {
+  border: 2px solid #4facfe;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  background: white;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stats div {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hero-card {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  animation: float 3s infinite;
+}
+
+.full {
+  width: 100%;
+}
+
+@keyframes float {
+  50% {transform: translateY(-10px);}
+}
